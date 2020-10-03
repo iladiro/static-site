@@ -1,23 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head;
-    any other head content must come *after* these tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="I am Ilaria Di Rosa and I am a Junior Front-end developer">
     <meta name="keywords" content="Portfolio, Portfolio Ilaria Di Rosa, Web Site Ilaria DI Rosa, Junior Fron-end developer, Fron-end developer, Web developer, Ilaria Di Rosa, Web designer">
     <meta name="author" content="Ilaria Di Rosa">
-
-    <!-- Use title if it's in the page YAML frontmatter -->
+    <!-- Use the title from a page's frontmatter if it has one -->
     <title>Ilaria Di Rosa</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" type="text/css" /><link href="assets/stylesheets/all.css" rel="stylesheet" type="text/css" />
-    <script src="assets/javascripts/all.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet" /><link href="assets/stylesheets/all.css" rel="stylesheet" />
+    <script src="assets/javascripts/all.js"></script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -27,6 +22,93 @@
   <body class="index">
     <?php include_once("assets/php/analyticstracking.php") ?>
     <!-- Work Modal -->
+<div id="bracco-modal" class="modal fade customized-modal" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header clearfix">
+        <button type="button" class="close modal-header__button" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6 modal-body__image">
+            <img src="assets/images/bracco.jpg" class="img-rounded img-responsive" alt="bracco" />
+          </div>
+          <div class="col-md-6">
+            <h3 class="modal-body__title text-uppercase">
+              Bracco
+            </h3>
+            <div class="modal-body__description">
+              <p>
+                Tool che permette la gestione dei tickets di lavoro.<br><br>
+              </p>
+              <h4>Technologies used:</h4>
+              <ul>
+                  <li>Angular</li>
+                  <li>Bootstrap 4</li>
+                  <li>scss</li>
+                  <li>Git</li>
+                  <li>Font awesome</li>
+                  <li>PostgreSQL</li>
+                  <li>PostgREST</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <a href="#" class="btn btn-lg text-uppercase button-block" target="_blank">  <i class="fa fa-external-link"></i> view website
+</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Work Modal -->
+<div id="zinkroo-modal" class="modal fade customized-modal" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header clearfix">
+        <button type="button" class="close modal-header__button" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6 modal-body__image">
+            <img src="assets/images/zinkroo.jpg" class="img-rounded img-responsive" alt="zinkroo" />
+          </div>
+          <div class="col-md-6">
+            <h3 class="modal-body__title text-uppercase">
+              Zinkroo
+            </h3>
+            <div class="modal-body__description">
+              <p>
+                SPA per la sincronizzazione grafica di presentazioni video e slides.<br><br>
+              </p>
+              <h4>Technologies used:</h4>
+              <ul>
+                  <li>Bootstrap</li>
+                  <li>Sass (scss)</li>
+                  <li>Mithril hyperscript</li>
+                  <li>Jquery</li>
+                  <li>Photoshop</li>
+                  <li>Git</li>
+                  <li>Trello</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <a href="http://www.zinkroo.com/" class="btn btn-lg text-uppercase button-block" target="_blank">  <i class="fa fa-external-link"></i> view website
+</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Work Modal -->
 <div id="kidstore-modal" class="modal fade customized-modal" role="dialog">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -36,7 +118,7 @@
       <div class="modal-body">
         <div class="row">
           <div class="col-md-6 modal-body__image">
-            <img class="img-rounded img-responsive" alt="kidstore" src="assets/images/kidStore.jpg" />
+            <img src="assets/images/kidStore.jpg" class="img-rounded img-responsive" alt="kidstore" />
           </div>
           <div class="col-md-6">
             <h3 class="modal-body__title text-uppercase">
@@ -60,7 +142,7 @@
           </div>
         </div>
         <div class="text-center">
-          <a class="btn btn-lg text-uppercase button-block" target="_blank" href="http://ilariadirosa.it/kidstore/">  <i class="fa fa-external-link"></i> view website
+          <a href="http://ilariadirosa.it/kidstore/" class="btn btn-lg text-uppercase button-block" target="_blank">  <i class="fa fa-external-link"></i> view website
 </a>
         </div>
       </div>
@@ -79,7 +161,7 @@
       <div class="modal-body">
         <div class="row">
           <div class="col-md-6 modal-body__image">
-            <img class="img-rounded img-responsive" alt="socialsharing" src="assets/images/socialSharing.jpg" />
+            <img src="assets/images/socialSharing.jpg" class="img-rounded img-responsive" alt="socialsharing" />
           </div>
           <div class="col-md-6">
             <h3 class="modal-body__title text-uppercase">
@@ -104,137 +186,7 @@
           </div>
         </div>
         <div class="text-center">
-          <a class="btn btn-lg text-uppercase button-block" target="_blank" href="http://ilariadirosa.it/social-sharing/">  <i class="fa fa-external-link"></i> view website
-</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<!-- Work Modal -->
-<div id="lampwireless-modal" class="modal fade customized-modal" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header clearfix">
-        <button type="button" class="close modal-header__button" data-dismiss="modal">&times;</button>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-md-6 modal-body__image">
-            <img class="img-rounded img-responsive" alt="lampwireless" src="assets/images/lampWireless.jpg" />
-          </div>
-          <div class="col-md-6">
-            <h3 class="modal-body__title text-uppercase">
-              LampWireless
-            </h3>
-            <div class="modal-body__description">
-              <p>
-                LampWireless is a website promoting an hardware device for impaired people.<br><br>
-              </p>
-              <h4>Technologies used:</h4>
-              <ul>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>LESS</li>
-                  <li>Javascript</li>
-                  <li>Jquery</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="text-center">
-          <a class="btn btn-lg text-uppercase button-block" target="_blank" href="http://ilariadirosa.it/lampwireless/">  <i class="fa fa-external-link"></i> view website
-</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Work Modal -->
-<div id="itakacloud-modal" class="modal fade customized-modal" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header clearfix">
-        <button type="button" class="close modal-header__button" data-dismiss="modal">&times;</button>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-md-6 modal-body__image">
-            <img class="img-rounded img-responsive" alt="itakacloud" src="assets/images/itakacloud.jpg" />
-          </div>
-          <div class="col-md-6">
-            <h3 class="modal-body__title text-uppercase">
-              ItakaCloud
-            </h3>
-            <div class="modal-body__description">
-              <p>
-                Un hub di raccolta e diffusione di informazioni e servizi dedicati al medico.<br><br>
-              </p>
-              <h4>Technologies used:</h4>
-              <ul>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>SASS</li>
-                  <li>Jquery</li>
-                  <li>Middleman</li>
-                  <li>Bootstrap 3</li>
-                  <li>Trello</li>
-                  <li>Git</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="text-center">
-          <a class="btn btn-lg text-uppercase button-block" target="_blank" href="http://itakacloud.com/">  <i class="fa fa-external-link"></i> view website
-</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Work Modal -->
-<div id="zinkroo-modal" class="modal fade customized-modal" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header clearfix">
-        <button type="button" class="close modal-header__button" data-dismiss="modal">&times;</button>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-md-6 modal-body__image">
-            <img class="img-rounded img-responsive" alt="zinkroo" src="assets/images/zinkroo.jpg" />
-          </div>
-          <div class="col-md-6">
-            <h3 class="modal-body__title text-uppercase">
-              zinkroo
-            </h3>
-            <div class="modal-body__description">
-              <p>
-                E' una SPA per la sincronizzazione grafica di presentazioni video e slides.<br><br>
-              </p>
-              <h4>Technologies used:</h4>
-              <ul>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>SASS</li>
-                  <li>Mithril hyperscript</li>
-                  <li>Jquery</li>
-                  <li>Bootstrap 3</li>
-                  <li>Trello</li>
-                  <li>Git</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="text-center">
-          <a class="btn btn-lg text-uppercase button-block" target="_blank" href="http://www.zinkroo.com/">  <i class="fa fa-external-link"></i> view website
+          <a href="http://ilariadirosa.it/social-sharing/" class="btn btn-lg text-uppercase button-block" target="_blank">  <i class="fa fa-external-link"></i> view website
 </a>
         </div>
       </div>
@@ -253,7 +205,7 @@
       <div class="modal-body">
         <div class="row">
           <div class="col-md-6 modal-body__image">
-            <img class="img-rounded img-responsive" alt="clouderma" src="assets/images/clouderma.jpg" />
+            <img src="assets/images/clouderma.jpg" class="img-rounded img-responsive" alt="clouderma" />
           </div>
           <div class="col-md-6">
             <h3 class="modal-body__title text-uppercase">
@@ -261,68 +213,21 @@
             </h3>
             <div class="modal-body__description">
               <p>
-                Il primo network italiano per i professionisti della Dermatologia<br><br>
+                E' una community dedicata ai professionisti della dermatite.<br><br>
               </p>
               <h4>Technologies used:</h4>
               <ul>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>SASS</li>
-                  <li>Jquery</li>
                   <li>Middleman</li>
-                  <li>Bootstrap 3</li>
-                  <li>Trello</li>
+                  <li>Bootstrap</li>
+                  <li>Sass (scss)</li>
                   <li>Git</li>
+                  <li>Trello</li>
               </ul>
             </div>
           </div>
         </div>
         <div class="text-center">
-          <a class="btn btn-lg text-uppercase button-block" target="_blank" href="https://clouderma.com/">  <i class="fa fa-external-link"></i> view website
-</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Work Modal -->
-<div id="bnect-modal" class="modal fade customized-modal" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header clearfix">
-        <button type="button" class="close modal-header__button" data-dismiss="modal">&times;</button>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-md-6 modal-body__image">
-            <img class="img-rounded img-responsive" alt="bnect" src="assets/images/bnect.jpg" />
-          </div>
-          <div class="col-md-6">
-            <h3 class="modal-body__title text-uppercase">
-              Bnect
-            </h3>
-            <div class="modal-body__description">
-              <p>
-                Piattaforma per la comunità emofilica<br><br>
-              </p>
-              <h4>Technologies used:</h4>
-              <ul>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>SASS</li>
-                  <li>Jquery</li>
-                  <li>Middleman</li>
-                  <li>Bootstrap 3</li>
-                  <li>Trello</li>
-                  <li>Git</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="text-center">
-          <a class="btn btn-lg text-uppercase button-block" target="_blank" href="https://www.b-nect.it/">  <i class="fa fa-external-link"></i> view website
+          <a href="https://clouderma.com/" class="btn btn-lg text-uppercase button-block" target="_blank">  <i class="fa fa-external-link"></i> view website
 </a>
         </div>
       </div>
@@ -345,7 +250,7 @@
       <i class="fa fa-book"></i>
     </div>
     <h2 class="cv-section__label text-uppercase">Education and training</h2>
-  </div>
+  </div>  
 
     <div class="cv-block row">
   <div class="cv-block__label col-md-4">
@@ -402,21 +307,49 @@
 
     <div class="cv-block row">
   <div class="cv-block__label col-md-4">
-    From February 2016
+    From November 2017 to January 2020
   </div>
   <dl class="cv-block__body col-md-8">
     <dt class="cv-block__title">
-      Freelance
+      Subcom - Wind
     </dt>
     <dd class="cv-block__description">
-      Since February 2016 I am working as freelancer.
+      I worked at Subcom as Wind consultant. My duty was to build new website Wind components and do maintenance on existing components.
     </dd>
   </dl>
 </div>
 
     <div class="cv-block row">
   <div class="cv-block__label col-md-4">
-    From January 2011 to January 2015
+    From May 2016 to March 2017
+  </div>
+  <dl class="cv-block__body col-md-8">
+    <dt class="cv-block__title">
+      Axenso
+    </dt>
+    <dd class="cv-block__description">
+      I worked at Axenso as freelancer. My duty was to build websites interface  and web applications.
+    </dd>
+  </dl>
+</div>
+
+    <div class="cv-block row">
+  <div class="cv-block__label col-md-4">
+    From January 2015 to June 2016
+  </div>
+  <dl class="cv-block__body col-md-8">
+    <dt class="cv-block__title">
+      Freelance
+    </dt>
+    <dd class="cv-block__description">
+      I lived in Manchester from January 2015 to June 2016, to do practice with English Language. I attended English school.
+    </dd>
+  </dl>
+</div>
+
+    <div class="cv-block row">
+  <div class="cv-block__label col-md-4">
+    From January 2010 to December 2014
   </div>
   <dl class="cv-block__body col-md-8">
     <dt class="cv-block__title">
@@ -430,7 +363,7 @@
 
     <div class="cv-block row">
   <div class="cv-block__label col-md-4">
-    From January 2008 to December 2010
+    From January 2007 to December 2009
   </div>
   <dl class="cv-block__body col-md-8">
     <dt class="cv-block__title">
@@ -438,6 +371,59 @@
     </dt>
     <dd class="cv-block__description">
       Employee at PrimaPagina as HTML Developer.
+    </dd>
+  </dl>
+</div>
+
+
+</section>
+
+        <section class="cv-section">
+  <div class="cv-section__head">
+    <div class="cv-section__icon">
+      <i class="fa fa-code"></i>
+    </div>
+    <h2 class="cv-section__label text-uppercase">Personal Projects</h2>
+  </div>
+
+    <div class="cv-block row">
+  <div class="cv-block__label col-md-4">
+    Bracco
+  </div>
+  <dl class="cv-block__body col-md-8">
+    <dt class="cv-block__title">
+      Tool
+    </dt>
+    <dd class="cv-block__description">
+      Tool that allows the management of work tickets.
+    </dd>
+  </dl>
+</div>
+
+    <div class="cv-block row">
+  <div class="cv-block__label col-md-4">
+    Social sharing
+  </div>
+  <dl class="cv-block__body col-md-8">
+    <dt class="cv-block__title">
+      Tool
+    </dt>
+    <dd class="cv-block__description">
+      Share link generator for the various social networks (Facebook, Twitter, linkedin, Google Plus, Pinterest).
+    </dd>
+  </dl>
+</div>
+
+    <div class="cv-block row">
+  <div class="cv-block__label col-md-4">
+    Counter & Countdown
+  </div>
+  <dl class="cv-block__body col-md-8">
+    <dt class="cv-block__title">
+      Plugin
+    </dt>
+    <dd class="cv-block__description">
+      Pure JavaScript plugin
     </dd>
   </dl>
 </div>
@@ -476,7 +462,7 @@
       
     </dt>
     <dd class="cv-block__description">
-      MacOsx, Windows
+      MacOsx, Windows, Linux
     </dd>
   </dl>
 </div>
@@ -490,14 +476,14 @@
       
     </dt>
     <dd class="cv-block__description">
-      HTML 4/5, CSS 2/3, JavaScript (basic level)
+      HTML 4/5, CSS 2/3, JavaScript, Typescript
     </dd>
   </dl>
 </div>
 
     <div class="cv-block row">
   <div class="cv-block__label col-md-4">
-    Framework:
+    Ruby Framework:
   </div>
   <dl class="cv-block__body col-md-8">
     <dt class="cv-block__title">
@@ -511,6 +497,20 @@
 
     <div class="cv-block row">
   <div class="cv-block__label col-md-4">
+    Javascript Framework:
+  </div>
+  <dl class="cv-block__body col-md-8">
+    <dt class="cv-block__title">
+      
+    </dt>
+    <dd class="cv-block__description">
+      Angular > 2
+    </dd>
+  </dl>
+</div>
+
+    <div class="cv-block row">
+  <div class="cv-block__label col-md-4">
     Html framework:
   </div>
   <dl class="cv-block__body col-md-8">
@@ -518,7 +518,7 @@
       
     </dt>
     <dd class="cv-block__description">
-      Bootstrap 3, Semantic ui
+      Bootstrap
     </dd>
   </dl>
 </div>
@@ -567,20 +567,6 @@
 
     <div class="cv-block row">
   <div class="cv-block__label col-md-4">
-    Methodologies css:
-  </div>
-  <dl class="cv-block__body col-md-8">
-    <dt class="cv-block__title">
-      
-    </dt>
-    <dd class="cv-block__description">
-      BEM
-    </dd>
-  </dl>
-</div>
-
-    <div class="cv-block row">
-  <div class="cv-block__label col-md-4">
     Versioning tools:
   </div>
   <dl class="cv-block__body col-md-8">
@@ -595,42 +581,28 @@
 
     <div class="cv-block row">
   <div class="cv-block__label col-md-4">
-    Team collaborative tools:
+    Web Server:
   </div>
   <dl class="cv-block__body col-md-8">
     <dt class="cv-block__title">
       
     </dt>
     <dd class="cv-block__description">
-      Github, Bitbucket, Trello
+      PostgREST
     </dd>
   </dl>
 </div>
 
     <div class="cv-block row">
   <div class="cv-block__label col-md-4">
-    IDE:
+    Database management system:
   </div>
   <dl class="cv-block__body col-md-8">
     <dt class="cv-block__title">
       
     </dt>
     <dd class="cv-block__description">
-      Atom, HtmlPad, SublimeText
-    </dd>
-  </dl>
-</div>
-
-    <div class="cv-block row">
-  <div class="cv-block__label col-md-4">
-    Design tools:
-  </div>
-  <dl class="cv-block__body col-md-8">
-    <dt class="cv-block__title">
-      
-    </dt>
-    <dd class="cv-block__description">
-      Photoshop
+      PostgreSQL
     </dd>
   </dl>
 </div>
@@ -639,7 +611,7 @@
 </section>
 
         <div class="text-center">
-          <a class="btn btn-lg text-uppercase button-block" target="_blank" href="assets/pdf/cv-IlariaDiRosa.pdf">  <i class="fa fa-download"></i> Download CV
+          <a href="assets/pdf/cv-IlariaDiRosa.pdf" class="btn btn-lg text-uppercase button-block" target="_blank">  <i class="fa fa-download"></i> Download CV
 </a>
         </div>
       </div>
@@ -712,7 +684,7 @@
     <section class="clearfix">
       <article class="col-md-6">
         <div class="photo-frame">
-  <img class="photo-frame__img" alt="avatar" src="assets/images/me.jpg" />
+  <img src="assets/images/me.jpg" class="photo-frame__img" alt="avatar" />
 </div>
 
       </article>
@@ -822,13 +794,13 @@
       </article>
       <article class="col-sm-6 col-md-3 text-center">
         <div class="chart">
-  <div class="chart__container wow" data-percent="70">
+  <div class="chart__container wow" data-percent="60">
     <span class="chart__percentage">
-      70%
+      60%
     </span>
   </div>
   <h2 class="text-center chart__label">
-    jquery
+    Angular > 2
   </h2>
 </div>
 
@@ -863,14 +835,14 @@
   </div>
   <div class="cd-timeline__content">
     <h3 class="cd-timeline__title">
-      Since February 2016
+      From November 2017 to January 2020
     </h3>
     <div class="cd-timeline__body">
       <h4 class="cd-timeline__subtitle">
-        Freelance
+        Subcom - Wind
       </h4>
       <p class="cd-timeline__description">
-        Since March 2016 I am working as freelancer.
+        I worked at Subcom as Wind consultant. My duty was to build new website Wind components and do maintenance on existing components.
       </p>
       <button type="button" class="text-uppercase cd-timeline__link" data-toggle="modal" data-target="">
         
@@ -885,7 +857,51 @@
   </div>
   <div class="cd-timeline__content">
     <h3 class="cd-timeline__title">
-      From 2009 to January 2015
+      From June 2016 to March 2017
+    </h3>
+    <div class="cd-timeline__body">
+      <h4 class="cd-timeline__subtitle">
+        Axenso
+      </h4>
+      <p class="cd-timeline__description">
+        I worked at Axenso as freelancer. My duty was to build websites interface  and web applications.
+      </p>
+      <button type="button" class="text-uppercase cd-timeline__link" data-toggle="modal" data-target="">
+        
+      </button>
+    </div>
+  </div>
+</div>
+
+        <div class="cd-timeline clearfix wow slideInRight" data-wow-duration="1s" data-wow-delay="0.1s">
+  <div class="cd-timeline__icon">
+    <i class="fa fa-code"></i>
+  </div>
+  <div class="cd-timeline__content">
+    <h3 class="cd-timeline__title">
+      From January 2015 to May 2016
+    </h3>
+    <div class="cd-timeline__body">
+      <h4 class="cd-timeline__subtitle">
+        Freelancer
+      </h4>
+      <p class="cd-timeline__description">
+        I lived in Manchester from January 2015 to June 2016, to do practice with English Language. I attended English school.
+      </p>
+      <button type="button" class="text-uppercase cd-timeline__link" data-toggle="modal" data-target="">
+        
+      </button>
+    </div>
+  </div>
+</div>
+
+        <div class="cd-timeline clearfix wow slideInRight" data-wow-duration="1s" data-wow-delay="0.1s">
+  <div class="cd-timeline__icon">
+    <i class="fa fa-code"></i>
+  </div>
+  <div class="cd-timeline__content">
+    <h3 class="cd-timeline__title">
+      From 2009 to 2014
     </h3>
     <div class="cd-timeline__body">
       <h4 class="cd-timeline__subtitle">
@@ -900,14 +916,14 @@
     </div>
   </div>
 </div>
-
+        
         <div class="cd-timeline clearfix wow slideInRight" data-wow-duration="1s" data-wow-delay="0.1s">
   <div class="cd-timeline__icon">
     <i class="fa fa-code"></i>
   </div>
   <div class="cd-timeline__content">
     <h3 class="cd-timeline__title">
-      From 2007 to 2010
+      From 2007 to 2009
     </h3>
     <div class="cd-timeline__body">
       <h4 class="cd-timeline__subtitle">
@@ -925,11 +941,11 @@
 
         <div class="cd-timeline clearfix wow slideInRight" data-wow-duration="1s" data-wow-delay="0.1s">
   <div class="cd-timeline__icon">
-    <i class="fa fa-file-text-o"></i>
+    <i class="far fa-file-alt"></i>
   </div>
   <div class="cd-timeline__content">
     <h3 class="cd-timeline__title">
-      View my resume...
+      View my curriculum...
     </h3>
     <div class="cd-timeline__body">
       <h4 class="cd-timeline__subtitle">
@@ -964,91 +980,76 @@
   <div class="works-contents">
     <div class="container">
       <div class="row">
-        <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <article class="col-md-4">
           <a href="" class="item" data-toggle="modal" data-target="#zinkroo-modal">
-  <img class="item__image img-responsive" alt="alt_text" src="assets/images/zinkroo.jpg" />
+  <img src="assets/images/zinkroo.jpg" class="item__image img-responsive" alt="alt_text" />
   <div class="hover-mask">
     <div class="item__info text-center">
       <h2 class="item__title text-uppercase">
-        zinkroo<br>
+        Zinkroo<br>
         <i class="fa fa-minus"></i>
       </h2>
-      <img width="40" alt="ico eye" src="assets/images/ico-white-eye.png" />
+      <img src="assets/images/ico-white-eye.png" width="40" alt="ico eye" />
     </div>
   </div>
 </a>
 
         </article>
-        <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-          <a href="" class="item" data-toggle="modal" data-target="#itakacloud-modal">
-  <img class="item__image img-responsive" alt="alt_text" src="assets/images/itakacloud.jpg" />
-  <div class="hover-mask">
-    <div class="item__info text-center">
-      <h2 class="item__title text-uppercase">
-        ItakaCloud<br>
-        <i class="fa fa-minus"></i>
-      </h2>
-      <img width="40" alt="ico eye" src="assets/images/ico-white-eye.png" />
-    </div>
-  </div>
-</a>
-
-        </article>
-        <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <article class="col-md-4">
           <a href="" class="item" data-toggle="modal" data-target="#socialsharing-modal">
-  <img class="item__image img-responsive" alt="alt_text" src="assets/images/socialSharing.jpg" />
+  <img src="assets/images/socialSharing.jpg" class="item__image img-responsive" alt="alt_text" />
   <div class="hover-mask">
     <div class="item__info text-center">
       <h2 class="item__title text-uppercase">
         SocialSharing<br>
         <i class="fa fa-minus"></i>
       </h2>
-      <img width="40" alt="ico eye" src="assets/images/ico-white-eye.png" />
+      <img src="assets/images/ico-white-eye.png" width="40" alt="ico eye" />
     </div>
   </div>
 </a>
 
         </article>
-        <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <article class="col-md-4">
+          <a href="" class="item" data-toggle="modal" data-target="#bracco-modal">
+  <img src="assets/images/bracco.jpg" class="item__image img-responsive" alt="alt_text" />
+  <div class="hover-mask">
+    <div class="item__info text-center">
+      <h2 class="item__title text-uppercase">
+        Bracco<br>
+        <i class="fa fa-minus"></i>
+      </h2>
+      <img src="assets/images/ico-white-eye.png" width="40" alt="ico eye" />
+    </div>
+  </div>
+</a>
+
+        </article>
+        <article class="col-md-4">
           <a href="" class="item" data-toggle="modal" data-target="#kidstore-modal">
-  <img class="item__image img-responsive" alt="alt_text" src="assets/images/kidStore.jpg" />
+  <img src="assets/images/kidStore.jpg" class="item__image img-responsive" alt="alt_text" />
   <div class="hover-mask">
     <div class="item__info text-center">
       <h2 class="item__title text-uppercase">
         Ecommerce store<br>
         <i class="fa fa-minus"></i>
       </h2>
-      <img width="40" alt="ico eye" src="assets/images/ico-white-eye.png" />
+      <img src="assets/images/ico-white-eye.png" width="40" alt="ico eye" />
     </div>
   </div>
 </a>
 
         </article>
-        <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-          <a href="" class="item" data-toggle="modal" data-target="#bnect-modal">
-  <img class="item__image img-responsive" alt="alt_text" src="assets/images/bnect.jpg" />
-  <div class="hover-mask">
-    <div class="item__info text-center">
-      <h2 class="item__title text-uppercase">
-        Bnect<br>
-        <i class="fa fa-minus"></i>
-      </h2>
-      <img width="40" alt="ico eye" src="assets/images/ico-white-eye.png" />
-    </div>
-  </div>
-</a>
-
-        </article>
-        <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <article class="col-md-4">
           <a href="" class="item" data-toggle="modal" data-target="#clouderma-modal">
-  <img class="item__image img-responsive" alt="alt_text" src="assets/images/clouderma.jpg" />
+  <img src="assets/images/clouderma.jpg" class="item__image img-responsive" alt="alt_text" />
   <div class="hover-mask">
     <div class="item__info text-center">
       <h2 class="item__title text-uppercase">
         Clouderma<br>
         <i class="fa fa-minus"></i>
       </h2>
-      <img width="40" alt="ico eye" src="assets/images/ico-white-eye.png" />
+      <img src="assets/images/ico-white-eye.png" width="40" alt="ico eye" />
     </div>
   </div>
 </a>
@@ -1079,7 +1080,7 @@
         dirosa.ilaria@gmail.com
       </article>
       <article class="col-sm-12 col-md-6 fadeInRight wow">
-        <form action="#" accept-charset="UTF-8" id="contact-form" method="post"><fieldset>    <div class="input-group">
+        <form action="#" accept-charset="UTF-8" id="contact-form" method="post"><input type="hidden" name="authenticity_token" /><fieldset>    <div class="input-group">
       <span class="input-group-addon">
         <i class="fa fa-user fa-2x"></i>
       </span>
@@ -1101,7 +1102,7 @@
     </div>
 
 </fieldset>
-<fieldset class="buttons">    <a class="btn btn-lg text-uppercase button-block" target="_blank" href="#">  <i class="fa fa-paper-plane"></i> Send message
+<fieldset class="buttons">    <a href="#" class="btn btn-lg text-uppercase button-block" target="_blank">  <i class="fa fa-paper-plane"></i> Send message
 </a>
 </fieldset>
 </form>
@@ -1117,28 +1118,28 @@
   <div class="container text-center">
     <ul class="social list-unstyled">
   <li class="social__item">
-    <a href="https://www.facebook.com/ilaria.d.rosa.5" class="social__link">
-      <i class="fa fa-facebook social__icon"></i>
+    <a href="https://www.facebook.com/ilaria.d.rosa.5" class="social__link">      
+      <i class="fab fa-facebook-f social__icon"></i>
     </a>
   </li>
-  <!-- <li class="social__item">
+  <li class="social__item">
     <a href="" class="social__link">
-      <i class="fa fa-twitter social__icon"></i>
+      <i class="fab fa-twitter social__icon"></i>
     </a>
-  </li> -->
+  </li>
   <li class="social__item">
     <a href="https://www.linkedin.com/in/ilariadirosa/" class="social__link">
-      <i class="fa fa-linkedin social__icon"></i>
+      <i class="fab fa-linkedin-in social__icon"></i>
     </a>
   </li>
   <li class="social__item">
     <a href="mailto:dirosa.ilaria@gmail.com" class="social__link">
-      <i class="fa fa-envelope social__icon"></i>
+      <i class="fas fa-envelope social__icon"></i>
     </a>
   </li>
 </ul>
 
-    <p class="copyright">©2017 All Rights Reserved</p>
+    <p class="copyright">©2020 All Rights Reserved</p>
   </div>
 </footer>
 <!--  end  -->
@@ -1146,3 +1147,4 @@
 
   </body>
 </html>
+
